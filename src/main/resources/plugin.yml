@@ -1,0 +1,100 @@
+name: AfeliaRPG
+version: 1.0
+main: me.afelia.afeliarpg.AfeliaRPG
+author: Elias
+api-version: '1.20'
+
+depends: [PlaceholderAPI]
+
+commands:
+  harmogive:
+    description: Give Harmonie to a player
+    usage: /harmogive <player> <amount>
+  harmoset:
+    description: Set Harmonie for a player
+    usage: /harmoset <player> <amount>
+  harmotake:
+    description: Take Harmonie from a player
+    usage: /harmotake <player> <amount>
+  harmoclear:
+    description: Clear Harmonie for a player
+    usage: /harmoclear <player>
+  harmonie:
+    description: Check your Harmonie balance
+  harmosee:
+    description: See another player's Harmonie balance
+    usage: /harmosee <player>
+  harmosend:
+    description: Send Harmonie to another player
+    usage: /harmosend <player> <amount>
+  harmoniehelp:
+    description: List all Harmonie commands
+    usage: /harmoniehelp
+  harconsolegive:
+    description: Give Harmonie to a player from console
+    usage: /harconsolegive <player> <amount>
+  harconsoleset:
+    description: Set Harmonie for a player from console
+    usage: /harconsoleset <player> <amount>
+  harconsoletake:
+    description: Take Harmonie from a player from console
+    usage: /harconsoletake <player> <amount>
+  harconsoleclear:
+    description: Clear Harmonie for a player from console
+    usage: /harconsoleclear <player>
+  harconsoleharmonie:
+    description: Check a player's Harmonie balance from console
+    usage: /harconsoleharmonie <player>
+  harconsolesee:
+    description: See a player's Harmonie balance from console
+    usage: /harconsolesee <player>
+  harconsolesend:
+    description: Send Harmonie to another player from console
+    usage: /harconsolesend <sender> <receiver> <amount>
+
+permissions:
+  afeliarpg.command.harmogive:
+    description: Allows access to /harmogive command
+    default: op
+  afeliarpg.command.harmoset:
+    description: Allows access to /harmoset command
+    default: op
+  afeliarpg.command.harmotake:
+    description: Allows access to /harmotake command
+    default: op
+  afeliarpg.command.harmoclear:
+    description: Allows access to /harmoclear command
+    default: op
+  afeliarpg.command.harmonie:
+    description: Allows access to /harmonie command
+    default: op
+  afeliarpg.command.harmosee:
+    description: Allows access to /harmosee command
+    default: op
+  afeliarpg.command.harmosend:
+    description: Allows access to /harmosend command
+    default: op
+  afeliarpg.command.harmoniehelp:
+    description: Allows access to /harmoniehelp command
+    default: op
+  afeliarpg.command.harconsolegive:
+    description: Allows access to /harconsolegive command
+    default: op
+  afeliarpg.command.harconsoleset:
+    description: Allows access to /harconsoleset command
+    default: op
+  afeliarpg.command.harconsoletake:
+    description: Allows access to /harconsoletake command
+    default: op
+  afeliarpg.command.harconsoleclear:
+    description: Allows access to /harconsoleclear command
+    default: op
+  afeliarpg.command.harconsoleharmonie:
+    description: Allows access to /harconsoleharmonie command
+    default: op
+  afeliarpg.command.harconsolesee:
+    description: Allows access to /harconsolesee command
+    default: op
+  afeliarpg.command.harconsolesend:
+    description: Allows access to /harconsolesend command
+    default: op
