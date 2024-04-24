@@ -40,14 +40,14 @@ public class HarmoniePlaceholderExpansion extends PlaceholderExpansion {
         }
 
         // Debugging output
-        plugin.getLogger().info("Placeholder requested: " + identifier);
+//        plugin.getLogger().info("Placeholder requested: " + identifier);
 
         if (identifier.equals("player_harmonie")) {
             int harmonie = getHarmonie(player);
             return String.valueOf(harmonie);
         }
 
-        return null;
+        return identifier;
     }
 
     // Example method to get player's Harmonie value
