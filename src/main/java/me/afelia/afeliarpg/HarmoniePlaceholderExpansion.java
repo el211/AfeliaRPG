@@ -55,11 +55,12 @@ public class HarmoniePlaceholderExpansion extends PlaceholderExpansion {
         // Implement your logic to retrieve the player's Harmonie value here
         // For example, you can fetch it from a data storage or calculate it dynamically
         // For demonstration purposes, let's assume you have a PlayerData class to manage player data
-        PlayerData playerData = PlayerDataManager.getPlayerData(player); // Replace PlayerDataManager with your actual player data manager class
-        if (playerData != null) {
-            return playerData.getHarmonie(); // Assuming getHarmonie() returns the player's Harmonie value
-        } else {
-            return 0; // Return 0 if player data is not found
-        }
+//        PlayerData playerData = PlayerDataManager.getPlayerData(player); // Replace PlayerDataManager with your actual player data manager class
+//        if (playerData != null) {
+//            return playerData.getHarmonie(); // Assuming getHarmonie() returns the player's Harmonie value
+//        } else {
+//            return 0; // Return 0 if player data is not found
+//        }
+        return AfeliaRPG.getHarmonie(player);
     }
 }

@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public class AfeliaRPG extends JavaPlugin {
 
-    private FileConfiguration dataConfig;
+    private  static FileConfiguration dataConfig;
 
 
     @Override
@@ -441,7 +441,7 @@ public class AfeliaRPG extends JavaPlugin {
         return true;
     }
 
-    private int getHarmonie(Player player) {
+    public static int getHarmonie(Player player) {
         return dataConfig.getInt("players." + player.getUniqueId() + ".harmonie", 0);
     }
 
