@@ -37,6 +37,9 @@
             <goals>
               <goal>shade</goal>
             </goals>
+              <configuration>
+                  <finalName>AfeliaRPG</finalName>
+              </configuration>
           </execution>
         </executions>
       </plugin>

@@ -29,6 +29,7 @@ public class AfeliaRPG extends JavaPlugin {
             saveResource("data.yml", false);
         }
         dataConfig = YamlConfiguration.loadConfiguration(dataFile);
+        new HarmoniePlaceholderExpansion(this).register();
     }
 
     // Method to retrieve the player's Harmonie value
