@@ -160,7 +160,7 @@ public class AfeliaRPG extends JavaPlugin {
 
     private boolean handleHarmosetCommand(CommandSender sender, String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("This command can only be run by a player.");
+            sender.sendMessage("This command can only be run by a player...");
             return true;
         }
         if (!sender.hasPermission("afeliarpg.command.harmoset")) {
